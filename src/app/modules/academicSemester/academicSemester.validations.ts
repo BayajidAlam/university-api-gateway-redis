@@ -1,7 +1,6 @@
 import { z } from "zod";
 import { academicSemesterCodes, academicSemesterMonths, academicSemesterTitles } from "./academicSemester.constants";
 
-
 const create = z.object({
     body: z.object({
         year: z.number({
